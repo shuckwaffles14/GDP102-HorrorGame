@@ -1,8 +1,8 @@
-﻿Log file open, 11/16/20 12:40:37
+﻿Log file open, 11/17/20 11:19:07
 LogInit: Display: Running engine for game: Project1
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.361057
+LogStats: Stats thread started at 0.250600
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,733 +194,738 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.16-01.40.38:718][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.11.16-01.40.38:718][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.11.16-01.40.38:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
-[2020.11.16-01.40.38:718][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.16-01.40.38:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
-[2020.11.16-01.40.38:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
-[2020.11.16-01.40.38:718][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.16-01.40.38:719][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.16-01.40.38:719][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.16-01.40.38:719][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.16-01.40.38:719][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.16-01.40.38:719][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.16-01.40.38:719][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.16-01.40.38:719][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.16-01.40.38:720][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.16-01.40.38:720][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.16-01.40.38:720][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.16-01.40.38:720][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.16-01.40.38:720][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.16-01.40.38:720][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.16-01.40.38:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
-[2020.11.16-01.40.38:720][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.16-01.40.38:721][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.16-01.40.38:722][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.16-01.40.38:722][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.16-01.40.38:722][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.16-01.40.38:722][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
-[2020.11.16-01.40.38:722][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
-[2020.11.16-01.40.38:738][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:738][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.16-01.40.38:739][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.16-01.40.38:739][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:739][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.16-01.40.38:739][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:739][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.16-01.40.38:739][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.16-01.40.38:740][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.16-01.40.38:741][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.16-01.40.38:742][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.16-01.40.38:743][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.16-01.40.38:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.16-01.40.38:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.16-01.40.38:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.16-01.40.38:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.16-01.40.38:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.16-01.40.38:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.16-01.40.38:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.16-01.40.38:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.16-01.40.38:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.16-01.40.38:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.16-01.40.38:745][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.16-01.40.38:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.16-01.40.38:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.16-01.40.38:745][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.16-01.40.38:746][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.16-01.40.38:747][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.16-01.40.38:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.16-01.40.38:749][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:749][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.16-01.40.38:750][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.16-01.40.38:750][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:750][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.16-01.40.38:750][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.16-01.40.38:750][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.16-01.40.38:750][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.16-01.40.38:750][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.16-01.40.38:750][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.16-01.40.38:751][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.16-01.40.38:751][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.16-01.40.38:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.16-01.40.38:751][  0]LogHAL: Display: Platform has ~ 16 GB [17093021696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.16-01.40.38:752][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.16-01.40.38:752][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:752][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.16-01.40.38:752][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.16-01.40.38:753][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:753][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.16-01.40.38:753][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:753][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.16-01.40.38:753][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.16-01.40.38:753][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.16-01.40.38:754][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.16-01.40.38:755][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.16-01.40.38:755][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.16-01.40.38:755][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.16-01.40.38:755][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.16-01.40.38:755][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.16-01.40.38:755][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:755][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.16-01.40.38:755][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.16-01.40.38:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.16-01.40.38:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.16-01.40.38:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.16-01.40.38:756][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.16-01.40.38:756][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.16-01.40.38:756][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.16-01.40.38:756][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.16-01.40.38:757][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.16-01.40.38:757][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.16-01.40.38:757][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.16-01.40.38:757][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.16-01.40.38:757][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.16-01.40.38:757][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.16-01.40.38:757][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.16-01.40.38:758][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.16-01.40.38:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.16-01.40.38:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.16-01.40.38:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.16-01.40.38:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.16-01.40.38:758][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.16-01.40.38:758][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.16-01.40.38:759][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:759][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.16-01.40.38:760][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.16-01.40.38:761][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.16-01.40.38:761][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.16-01.40.38:761][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.16-01.40.38:761][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.16-01.40.38:761][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.16-01.40.38:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.16-01.40.38:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.16-01.40.38:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.16-01.40.38:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.16-01.40.38:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.16-01.40.38:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.16-01.40.38:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.16-01.40.38:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.16-01.40.38:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.16-01.40.38:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.16-01.40.38:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.16-01.40.38:764][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:764][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.16-01.40.38:764][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.16-01.40.38:764][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
-[2020.11.16-01.40.38:765][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.16-01.40.38:765][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.16-01.40.38:765][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.16-01.40.38:765][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.16-01.40.38:765][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.16-01.40.38:765][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.16-01.40.38:765][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.16-01.40.38:765][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.16-01.40.38:767][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.16-01.40.38:767][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.16-01.40.38:767][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.16-01.40.38:767][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
-[2020.11.16-01.40.38:767][  0]LogInit: Computer: GAVIN-PC
-[2020.11.16-01.40.38:767][  0]LogInit: User: Gavin
-[2020.11.16-01.40.38:767][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.11.16-01.40.38:767][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.16-01.40.38:768][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.11.16-01.40.38:768][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.16-01.40.38:768][  0]LogMemory: Process Physical Memory: 115.98 MB used, 115.98 MB peak
-[2020.11.16-01.40.38:768][  0]LogMemory: Process Virtual Memory: 104.56 MB used, 104.56 MB peak
-[2020.11.16-01.40.38:768][  0]LogMemory: Physical Memory: 6542.18 MB used,  9759.00 MB free, 16301.18 MB total
-[2020.11.16-01.40.38:768][  0]LogMemory: Virtual Memory: 5118.76 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.11.16-01.40.38:966][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.11.16-01.40.39:209][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.16-01.40.39:222][  0]LogInit: Using OS detected language (en-US).
-[2020.11.16-01.40.39:222][  0]LogInit: Using OS detected locale (en-AU).
-[2020.11.16-01.40.39:229][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.11.16-01.40.39:911][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.16-01.40.40:012][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.11.16-01.40.40:012][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.11.16-01.40.40:786][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.16-01.40.40:786][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.11.16-01.40.40:786][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.11.16-01.40.40:786][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.16-01.40.41:029][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2020.11.16-01.40.41:029][  0]LogD3D11RHI:       4018/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.11.16-01.40.41:033][  0]LogD3D11RHI: Error: Result failed 
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
+[2020.11.17-00.19.07:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.17-00.19.07:815][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.17-00.19.07:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
+[2020.11.17-00.19.07:816][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
+[2020.11.17-00.19.07:823][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.17-00.19.07:823][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.17-00.19.07:824][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.17-00.19.07:825][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.17-00.19.07:826][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.17-00.19.07:826][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.17-00.19.07:826][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.17-00.19.07:826][  0]LogHAL: Display: Platform has ~ 16 GB [17093021696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.17-00.19.07:827][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.17-00.19.07:827][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.17-00.19.07:827][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.17-00.19.07:828][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:828][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.17-00.19.07:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Scalability.ini]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.17-00.19.07:830][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.17-00.19.07:831][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.17-00.19.07:831][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.17-00.19.07:831][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.17-00.19.07:831][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Config/Windows/Engine.ini]
+[2020.11.17-00.19.07:831][  0]LogInit: Computer: GAVIN-PC
+[2020.11.17-00.19.07:831][  0]LogInit: User: Gavin
+[2020.11.17-00.19.07:831][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.17-00.19.07:831][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.17-00.19.07:831][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.11.17-00.19.07:831][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.17-00.19.07:831][  0]LogMemory: Process Physical Memory: 115.06 MB used, 115.06 MB peak
+[2020.11.17-00.19.07:831][  0]LogMemory: Process Virtual Memory: 96.06 MB used, 96.07 MB peak
+[2020.11.17-00.19.07:831][  0]LogMemory: Physical Memory: 6185.48 MB used,  10115.70 MB free, 16301.18 MB total
+[2020.11.17-00.19.07:831][  0]LogMemory: Virtual Memory: 5110.51 MB used,  134212616.00 MB free, 134217728.00 MB total
+[2020.11.17-00.19.07:894][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.17-00.19.07:971][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.17-00.19.07:972][  0]LogInit: Using OS detected language (en-US).
+[2020.11.17-00.19.07:972][  0]LogInit: Using OS detected locale (en-AU).
+[2020.11.17-00.19.07:974][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.17-00.19.08:202][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.17-00.19.08:248][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.17-00.19.08:248][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.17-00.19.08:603][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.17-00.19.08:603][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.17-00.19.08:603][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.17-00.19.08:603][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.17-00.19.08:785][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.11.17-00.19.08:785][  0]LogD3D11RHI:       4018/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.17-00.19.08:788][  0]LogD3D11RHI: Error: Result failed 
  at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/Windows/WindowsD3D11Device.cpp:349 
  with error 887A0004 Error Code List: https://docs.microsoft.com/en-us/windows/desktop/direct3ddxgi/dxgi-error
-[2020.11.16-01.40.41:033][  0]LogD3D11RHI:    1. Unknown, failed to create test device.
-[2020.11.16-01.40.41:040][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.16-01.40.41:040][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.16-01.40.41:040][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.16-01.40.41:054][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.16-01.40.41:054][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2020.11.16-01.40.41:054][  0]LogWindows: EnumDisplayDevices:
-[2020.11.16-01.40.41:055][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2020.11.16-01.40.41:056][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.11.16-01.40.41:057][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.11.16-01.40.41:058][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.11.16-01.40.41:059][  0]LogWindows:    4. 'Intel(R) HD Graphics 3000' (P:0 D:1)
-[2020.11.16-01.40.41:060][  0]LogWindows:    5. 'Intel(R) HD Graphics 3000' (P:0 D:0)
-[2020.11.16-01.40.41:062][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.11.16-01.40.41:062][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2020.11.16-01.40.41:062][  0]LogD3D11RHI:   Driver Version: 456.55 (internal:27.21.14.5655, unified:456.55)
-[2020.11.16-01.40.41:062][  0]LogD3D11RHI:      Driver Date: 9-24-2020
-[2020.11.16-01.40.41:062][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2020.11.16-01.40.41:275][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.11.16-01.40.41:276][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.16-01.40.41:276][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.11.16-01.40.41:342][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.11.16-01.40.42:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.11.16-01.40.42:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.11.16-01.40.42:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.11.16-01.40.42:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.11.16-01.40.42:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.11.16-01.40.42:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.11.16-01.40.42:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.11.16-01.40.42:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.11.16-01.40.42:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.11.16-01.40.42:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.11.16-01.40.42:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.11.16-01.40.42:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.11.16-01.40.42:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.11.16-01.40.42:617][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.11.16-01.40.42:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.11.16-01.40.42:663][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.11.16-01.40.42:687][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.11.16-01.40.42:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.11.16-01.40.42:730][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.11.16-01.40.42:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.11.16-01.40.42:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.11.16-01.40.42:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.11.16-01.40.42:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.11.16-01.40.42:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.11.16-01.40.42:950][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.16-01.40.42:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.16-01.40.43:014][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.16-01.40.43:045][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.16-01.40.43:045][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.16-01.40.43:067][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.16-01.40.43:228][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Intermediate/Shaders/WorkingDirectory/4824/).
-[2020.11.16-01.40.43:229][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gavin/AppData/Local/Temp/UnrealShaderWorkingDir/6BC777464787E7F9164453AE73D6D747/'.
-[2020.11.16-01.40.43:230][  0]LogXGEController: Cleaning working directory: C:/Users/Gavin/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.11.16-01.40.43:231][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.16-01.40.43:231][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.16-01.40.43:231][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.16-01.40.45:897][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.16-01.40.46:055][  0]LogDerivedDataCache: Loaded boot cache 0.16s 75MB C:/Users/Gavin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.16-01.40.46:055][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gavin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.16-01.40.46:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.16-01.40.46:056][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.16-01.40.46:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.16-01.40.46:056][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.16-01.40.46:085][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.16-01.40.46:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.16-01.40.46:086][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.16-01.40.46:089][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.16-01.40.46:089][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.16-01.40.46:089][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.16-01.40.46:260][  0]LogSlate: Using FreeType 2.10.0
-[2020.11.16-01.40.46:261][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.16-01.40.46:338][  0]LogAssetRegistry: FAssetRegistry took 0.0078 seconds to start up
-[2020.11.16-01.40.47:245][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.16-01.40.47:696][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.16-01.40.47:696][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.16-01.40.47:696][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.16-01.40.47:697][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.16-01.40.47:697][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.16-01.40.47:752][  0]LogNetVersion: Project1 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3211556625)
-[2020.11.16-01.40.49:362][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000028DE20A5800), frame # 0
-[2020.11.16-01.40.49:362][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DE2008180), frame # 0
-[2020.11.16-01.40.49:368][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DE2021C00), frame # 0
-[2020.11.16-01.40.49:537][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.146075 seconds
-[2020.11.16-01.40.49:556][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.11.16-01.40.49:556][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.11.16-01.40.49:556][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.16-01.40.50:747][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.11.16-01.40.50:762][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.11.16-01.40.51:055][  0]SourceControl: Source control is disabled
-[2020.11.16-01.40.51:056][  0]SourceControl: Source control is disabled
-[2020.11.16-01.40.51:068][  0]SourceControl: Source control is disabled
-[2020.11.16-01.40.51:080][  0]SourceControl: Source control is disabled
-[2020.11.16-01.40.51:107][  0]SourceControl: Source control is disabled
-[2020.11.16-01.40.51:153][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.16-01.40.51:156][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.16-01.40.51:989][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.16-01.40.52:059][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.16-01.40.52:059][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.16-01.40.52:242][  0]LogOcInput: OculusInput pre-init called
-[2020.11.16-01.40.52:277][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.11.16-01.40.52:277][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.11.16-01.40.52:465][  0]LogEngine: Initializing Engine...
-[2020.11.16-01.40.52:470][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.16-01.40.52:470][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.11.16-01.40.52:474][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.11.16-01.40.52:800][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.11.16-01.40.52:822][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.11.16-01.40.52:823][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DE4B68600), frame # 0
-[2020.11.16-01.40.52:823][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DE4B81440), frame # 0
-[2020.11.16-01.40.52:866][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.16-01.40.52:866][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.16-01.40.52:866][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.16-01.40.52:867][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.16-01.40.52:867][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.16-01.40.52:867][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.16-01.40.52:867][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.16-01.40.52:867][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.16-01.40.52:868][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.16-01.40.52:868][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.16-01.40.53:200][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.16-01.40.53:200][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.11.16-01.40.53:362][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.16-01.40.53:369][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.16-01.40.53:376][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.16-01.40.53:376][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.16-01.40.53:378][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.16-01.40.53:379][  0]LogInit: FAudioDevice initialized.
-[2020.11.16-01.40.53:380][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.11.16-01.40.53:564][  0]LogDerivedDataCache: Saved boot cache 0.18s 75MB C:/Users/Gavin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.16-01.40.53:564][  0]LogInit: Texture streaming: Enabled
-[2020.11.16-01.40.53:617][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.11.16-01.40.53:618][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.11.16-01.40.53:654][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.11.16-01.40.53:755][  0]LogInit: Transaction tracking system initialized
-[2020.11.16-01.40.53:806][  0]BlueprintLog: New page: Editor Load
-[2020.11.16-01.40.53:990][  0]LocalizationService: Localization service is disabled
-[2020.11.16-01.40.54:172][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.16-01.40.54:174][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.16-01.40.54:403][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.11.16-01.40.54:403][  0]LogCook: Display: Mobile HDR setting 1
-[2020.11.16-01.40.54:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/' took 0.04s
-[2020.11.16-01.40.55:730][  0]SourceControl: Source control is disabled
-[2020.11.16-01.40.55:730][  0]LogUnrealEdMisc: Loading editor; pre map load, took 21.191
-[2020.11.16-01.40.55:731][  0]Cmd: MAP LOAD FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.16-01.40.55:732][  0]LightingResults: New page: Lighting Build
-[2020.11.16-01.40.55:734][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.16-01.40.55:734][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.16-01.40.55:735][  0]MapCheck: New page: Map Check
-[2020.11.16-01.40.55:735][  0]LightingResults: New page: Lighting Build
-[2020.11.16-01.40.55:781][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028DE4B68600), frame # 0
-[2020.11.16-01.40.55:782][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DE4B81440), frame # 0
-[2020.11.16-01.40.55:786][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
-[2020.11.16-01.40.57:036][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.11.16-01.40.57:036][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028DD86CA400), frame # 0
-[2020.11.16-01.40.57:036][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DD86C3B00), frame # 0
-[2020.11.16-01.40.57:079][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.Floor' which is static to it. Aborting.
-[2020.11.16-01.40.57:079][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.pCube1' which is static to it. Aborting.
-[2020.11.16-01.40.57:080][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group8' which is static to it. Aborting.
-[2020.11.16-01.40.57:080][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group9' which is static to it. Aborting.
-[2020.11.16-01.40.57:080][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group' which is static to it. Aborting.
-[2020.11.16-01.40.57:081][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group10' which is static to it. Aborting.
-[2020.11.16-01.40.57:081][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group11' which is static to it. Aborting.
-[2020.11.16-01.40.57:082][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group12' which is static to it. Aborting.
-[2020.11.16-01.40.57:083][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group13' which is static to it. Aborting.
-[2020.11.16-01.40.57:083][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group14' which is static to it. Aborting.
-[2020.11.16-01.40.57:084][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group15' which is static to it. Aborting.
-[2020.11.16-01.40.57:086][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group16' which is static to it. Aborting.
-[2020.11.16-01.40.57:087][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group17' which is static to it. Aborting.
-[2020.11.16-01.40.57:089][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group18' which is static to it. Aborting.
-[2020.11.16-01.40.57:090][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group19' which is static to it. Aborting.
-[2020.11.16-01.40.57:091][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group20' which is static to it. Aborting.
-[2020.11.16-01.40.57:092][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group21' which is static to it. Aborting.
-[2020.11.16-01.40.57:094][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group22' which is static to it. Aborting.
-[2020.11.16-01.40.57:095][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group23' which is static to it. Aborting.
-[2020.11.16-01.40.57:096][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group24' which is static to it. Aborting.
-[2020.11.16-01.40.57:097][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group25' which is static to it. Aborting.
-[2020.11.16-01.40.57:098][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group26' which is static to it. Aborting.
-[2020.11.16-01.40.57:100][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group27' which is static to it. Aborting.
-[2020.11.16-01.40.57:101][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.pCube2' which is static to it. Aborting.
-[2020.11.16-01.40.57:111][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.16-01.40.57:140][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
-[2020.11.16-01.40.57:141][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.16-01.40.57:142][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.547ms to complete.
-[2020.11.16-01.40.57:142][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.411
-[2020.11.16-01.40.57:146][  0]LogUnrealEdMisc: Total Editor Startup Time, took 22.607
-[2020.11.16-01.40.57:380][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.16-01.40.57:398][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.16-01.40.57:421][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.16-01.40.57:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.16-01.40.57:464][  0]LogCollectionManager: Loaded 0 collections in 0.002054 seconds
-[2020.11.16-01.40.57:500][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Collections/' took 0.00s
-[2020.11.16-01.40.57:500][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Developers/Gavin/Collections/' took 0.00s
-[2020.11.16-01.40.57:500][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Collections/' took 0.00s
-[2020.11.16-01.40.57:501][  0]LogContentBrowser: Native class hierarchy populated in 0.0219 seconds. Added 3427 classes and 821 folders.
-[2020.11.16-01.40.57:508][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.11.16-01.40.57:707][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.11.16-01.40.57:709][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
-[2020.11.16-01.40.57:798][  0]LogSlate: Took 0.000617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.11.16-01.40.57:804][  0]LogSlate: Took 0.000554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.11.16-01.40.57:816][  0]LogSlate: Took 0.000593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.11.16-01.40.58:062][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2020.11.16-01.40.58:285][  0]LogSlate: Took 0.000636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.16-01.40.58:436][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2020.11.16-01.40.58:436][  0]LogLoad: (Engine Initialization) Total time: 23.90 seconds
-[2020.11.16-01.40.58:436][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.16-01.40.58:555][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.11.16-01.40.58:680][  2]LogAssetRegistry: Asset discovery search completed in 12.3442 seconds
-[2020.11.16-01.40.58:696][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
-[2020.11.16-01.41.47:698][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
-[2020.11.16-01.41.50:003][263]Cmd: EDIT COPY
-[2020.11.16-01.41.50:243][277]Cmd: EDIT PASTE
-[2020.11.16-01.41.59:154][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame2)
-[2020.11.16-01.42.15:112][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
-[2020.11.16-01.42.15:895][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-01.42.16:499][648]LogSlate: Took 0.000630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.16-01.42.16:573][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
-[2020.11.16-01.42.16:706][648]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap90AE2A284AC0DEA417058A84B15A3FC6.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-01.42.19:290][648]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltDataCA1930624DA9E31645591784B5F63468.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-01.42.19:348][648]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-01.42.19:349][648]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-01.42.19:349][648]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-01.47.56:185][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame2)
-[2020.11.16-01.48.09:286][802]Cmd: MODE GRID=0
-[2020.11.16-01.48.12:784][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-01.48.13:831][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
-[2020.11.16-01.48.17:962][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
-[2020.11.16-01.48.18:079][306]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap8DF38BAD470AC7AE5ABC3BAD3352D4CF.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-01.48.19:225][306]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData75016D6E46118C412FAD1AA24059E8C5.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-01.48.19:274][306]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-01.48.19:274][306]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-01.48.19:274][306]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-01.48.34:477][260]Cmd: EDIT COPY
-[2020.11.16-01.48.34:780][276]Cmd: EDIT PASTE
-[2020.11.16-01.48.42:464][674]Cmd: EDIT COPY
-[2020.11.16-01.48.42:669][684]Cmd: EDIT PASTE
-[2020.11.16-01.48.56:642][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
-[2020.11.16-01.48.56:796][380]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMapED0CE9C0432E59D8C6FEF18253EA696E.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-01.48.58:403][380]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData32F997CD4D6B193A338DA1A98AE997EA.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-01.48.58:453][380]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-01.48.58:453][380]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-01.48.58:453][380]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-01.54.03:080][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-01.54.03:710][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
-[2020.11.16-01.54.03:806][577]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap9C568E96428162425CAC47A9069939C0.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-01.54.04:895][577]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltDataDBB452FE4EAA91A55A14A2800FA283ED.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-01.54.04:947][577]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-01.54.04:948][577]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-01.54.04:948][577]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-01.54.06:188][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame4)
-[2020.11.16-01.54.08:934][794]Cmd: EDIT COPY
-[2020.11.16-01.54.09:149][807]Cmd: EDIT PASTE
-[2020.11.16-01.54.26:422][838]Cmd: EDIT COPY
-[2020.11.16-01.54.26:585][847]Cmd: EDIT PASTE
-[2020.11.16-01.54.40:787][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-01.54.41:811][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.55.38:054][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.55.52:155][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-01.55.52:847][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.55.53:522][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.55.56:106][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.55.57:415][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.55.58:123][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.55.59:142][947]LogSlate: Took 0.000784 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.11.16-01.56.02:628][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.56.05:853][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.56.09:393][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.56.12:737][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.56.16:396][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.56.17:934][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.56.18:919][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.56.19:901][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.56.20:650][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.56.22:385][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.56.25:634][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.56.28:474][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.56.29:317][172]Cmd: EDIT CUT
-[2020.11.16-01.56.29:329][172]LogEditorActor: Deleted Actor: StaticMeshActor
-[2020.11.16-01.56.29:346][172]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
-[2020.11.16-01.56.29:352][172]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2020.11.16-01.56.30:758][272]Cmd: TRANSACTION UNDO
-[2020.11.16-01.56.30:758][272]LogEditorTransaction: Undo Cut
-[2020.11.16-01.56.31:325][282]Cmd: EDIT COPY
-[2020.11.16-01.56.31:518][292]Cmd: EDIT PASTE
-[2020.11.16-01.56.54:469][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-01.57.02:021][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
-[2020.11.16-01.57.06:227][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
-[2020.11.16-01.57.06:405][ 96]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap3304FC0D4C6629F809A3B8BC0E2F3564.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-01.57.08:135][ 96]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltDataF6B59F2F45344B47D7C569BF85BF1808.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-01.57.08:197][ 96]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-01.57.08:197][ 96]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-01.57.08:197][ 96]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-01.58.26:963][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame4)
-[2020.11.16-01.58.47:522][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame5)
-[2020.11.16-01.58.48:459][481]Cmd: EDIT COPY
-[2020.11.16-01.58.48:631][489]Cmd: EDIT PASTE
-[2020.11.16-01.59.02:607][102]Cmd: EDIT COPY
-[2020.11.16-01.59.02:823][111]Cmd: EDIT PASTE
-[2020.11.16-01.59.21:394][ 47]Cmd: EDIT COPY
-[2020.11.16-01.59.21:577][ 56]Cmd: EDIT PASTE
-[2020.11.16-01.59.30:137][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-01.59.34:738][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame10)
-[2020.11.16-01.59.35:748][705]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame9)
-[2020.11.16-01.59.36:633][740]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame8)
-[2020.11.16-01.59.42:428][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
-[2020.11.16-01.59.42:611][  8]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap1AEACFB046B932694BA0BC97918DDA7D.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-01.59.44:255][  8]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData199D5B2B4E38531600ECA6847356BCD5.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-01.59.44:320][  8]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-01.59.44:321][  8]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-01.59.44:321][  8]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-02.00.15:032][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame10)
-[2020.11.16-02.00.15:981][686]Cmd: EDIT COPY
-[2020.11.16-02.00.16:167][692]Cmd: EDIT PASTE
-[2020.11.16-02.00.23:230][987]Cmd: EDIT COPY
-[2020.11.16-02.00.25:309][ 87]Cmd: TRANSACTION UNDO
-[2020.11.16-02.00.25:309][ 87]LogEditorTransaction: Undo Move Actors
-[2020.11.16-02.00.25:676][ 93]Cmd: EDIT COPY
-[2020.11.16-02.00.25:875][ 98]Cmd: EDIT PASTE
-[2020.11.16-02.00.27:955][190]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.11.16-02.00.32:528][369]Cmd: DELETE
-[2020.11.16-02.00.32:528][369]Cmd: ACTOR DELETE
-[2020.11.16-02.00.32:533][369]LogEditorActor: Deleted Actor: StaticMeshActor
-[2020.11.16-02.00.32:553][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
-[2020.11.16-02.00.32:558][369]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2020.11.16-02.00.33:538][414]Cmd: TRANSACTION UNDO
-[2020.11.16-02.00.33:538][414]LogEditorTransaction: Undo Delete Actors
-[2020.11.16-02.01.23:756][ 53]Cmd: EDIT COPY
-[2020.11.16-02.01.23:954][ 62]Cmd: EDIT PASTE
-[2020.11.16-02.01.32:953][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pCube2)
-[2020.11.16-02.01.35:763][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame13)
-[2020.11.16-02.01.36:715][637]Cmd: EDIT COPY
-[2020.11.16-02.01.36:917][646]Cmd: EDIT PASTE
-[2020.11.16-02.03.30:700][284]Cmd: EDIT COPY
-[2020.11.16-02.03.30:962][298]Cmd: EDIT PASTE
-[2020.11.16-02.03.34:947][473]Cmd: TRANSACTION UNDO
-[2020.11.16-02.03.34:948][473]LogEditorTransaction: Undo Rotate Actors
-[2020.11.16-02.03.40:934][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame14)
-[2020.11.16-02.03.44:168][856]Cmd: TRANSACTION UNDO
-[2020.11.16-02.03.44:168][856]LogEditorTransaction: Undo Move Actors
-[2020.11.16-02.03.44:888][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame15)
-[2020.11.16-02.04.07:343][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame14)
-[2020.11.16-02.04.09:326][ 57]Cmd: TRANSACTION UNDO
-[2020.11.16-02.04.09:326][ 57]LogEditorTransaction: Undo Move Actors
-[2020.11.16-02.04.10:281][ 88]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame13)
-[2020.11.16-02.04.11:108][121]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame12)
-[2020.11.16-02.04.15:582][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
-[2020.11.16-02.04.15:721][325]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap208508F844890D0458FE839CF7FB2EFC.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-02.04.17:352][325]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData4B172B7E4EDE2FBC6D9D33A078DC3737.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-02.04.17:415][325]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-02.04.17:415][325]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-02.04.17:415][325]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-02.11.09:948][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-02.11.10:399][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
-[2020.11.16-02.11.10:500][204]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap244B8FA44AEA9663F35838B34DB645E4.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-02.11.11:231][204]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltDataE9893C5B41D2994B767C518EDE0A1995.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-02.11.11:278][204]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-02.11.11:278][204]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-02.11.11:278][204]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-02.11.13:269][306]LogActorFactory: Actor Factory created SM_DoorFrame
-[2020.11.16-02.11.14:273][369]LogActorFactory: Actor Factory created SM_DoorFrame
-[2020.11.16-02.11.24:413][ 59]Cmd: TRANSACTION UNDO
-[2020.11.16-02.11.24:413][ 59]LogEditorTransaction: Undo Scale Actors
-[2020.11.16-02.11.24:770][ 67]Cmd: TRANSACTION UNDO
-[2020.11.16-02.11.24:770][ 67]LogEditorTransaction: Undo Move Actors
-[2020.11.16-02.11.25:822][128]Cmd: TRANSACTION UNDO
-[2020.11.16-02.11.25:822][128]LogEditorTransaction: Undo Scale Actors
-[2020.11.16-02.11.36:795][855]Cmd: TRANSACTION UNDO
-[2020.11.16-02.11.36:795][855]LogEditorTransaction: Undo Scale Actors
-[2020.11.16-02.12.14:361][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2020.11.16-02.12.14:492][333]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap39DE320047093C602B55ADBCEF73D935.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-02.12.15:733][333]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData5C663DBA474DBCB7ACE23F9C17BD3374.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-02.12.15:779][333]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-02.12.15:779][333]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-02.12.15:779][333]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-02.12.29:104][ 55]Cmd: EDIT COPY
-[2020.11.16-02.12.29:299][ 65]Cmd: EDIT PASTE
-[2020.11.16-02.13.02:948][748]Cmd: EDIT COPY
-[2020.11.16-02.13.03:121][759]Cmd: EDIT PASTE
-[2020.11.16-02.13.12:158][201]Cmd: DELETE
-[2020.11.16-02.13.12:159][201]Cmd: ACTOR DELETE
-[2020.11.16-02.13.12:165][201]LogEditorActor: Deleted Actor: StaticMeshActor
-[2020.11.16-02.13.12:184][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
-[2020.11.16-02.13.12:188][201]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2020.11.16-02.13.13:506][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame3)
-[2020.11.16-02.13.19:579][582]Cmd: TRANSACTION UNDO
-[2020.11.16-02.13.19:580][582]LogEditorTransaction: Undo Scale Actors
-[2020.11.16-02.13.47:382][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2020.11.16-02.13.47:523][ 46]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMapAA20892448EC4A1CADFE2BAD0088F73A.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-02.13.49:117][ 46]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData1E251B3944BCB8CC6AB507BE40B512B6.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-02.13.49:179][ 46]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-02.13.49:180][ 46]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-02.13.49:180][ 46]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-02.13.56:702][444]LogTemp: Repeating last play command: Simulate
-[2020.11.16-02.13.56:741][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.11.16-02.13.56:742][444]PIE: New page: SIE session: FirstPersonExampleMap (17 Nov 2020, 12:13:56 am)
-[2020.11.16-02.13.56:744][444]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.11.16-02.13.56:746][444]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.11.16-02.13.56:746][444]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2020.11.16-02.13.56:789][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042195s)
-[2020.11.16-02.13.56:793][444]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.11.16-02.13.56:793][444]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028D9A4BE000), frame # 42444
-[2020.11.16-02.13.56:793][444]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028DD3AB2480), frame # 42444
-[2020.11.16-02.13.56:794][444]LogPlayLevel: PIE: World Init took: (0.004954s)
-[2020.11.16-02.13.56:794][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.047854s)
-[2020.11.16-02.13.56:856][444]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
-[2020.11.16-02.13.56:860][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.16-02.13.56:860][444]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.16-02.13.56:860][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.16-02.13.56:861][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.16-02.13.56:861][444]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.16-02.13.56:861][444]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.16-02.13.56:861][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.16-02.13.56:861][444]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.16-02.13.56:862][444]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.16-02.13.56:862][444]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.16-02.13.56:886][444]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.16-02.13.56:887][444]LogAudioMixer: Display: 1: FrontRight
-[2020.11.16-02.13.56:988][444]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.16-02.13.56:989][444]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.16-02.13.56:989][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.16-02.13.56:989][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.16-02.13.56:990][444]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.16-02.13.57:014][444]LogInit: FAudioDevice initialized.
-[2020.11.16-02.13.57:027][444]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2020.11.16-02.13.57:035][444]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.16-13.13.57
-[2020.11.16-02.13.57:036][444]LogWorld: Bringing up level for play took: 0.007689
-[2020.11.16-02.13.57:037][444]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2020.11.16-02.13.57:043][444]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2020.11.16-02.13.57:044][444]PIE: Server logged in
-[2020.11.16-02.13.57:046][444]PIE: Play in editor total start time 0.322 seconds.
-[2020.11.16-02.14.19:834][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.16-02.14.19:834][ 80]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2020.11.16-02.14.19:834][ 80]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.11.16-02.14.19:836][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.16-02.14.19:850][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.11.16-02.14.19:854][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.16-02.14.19:869][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.16-02.14.19:910][ 80]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028DD3AB2480), frame # 44080
-[2020.11.16-02.14.19:911][ 80]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028D9A4BE000), frame # 44080
-[2020.11.16-02.14.19:913][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
-[2020.11.16-02.14.19:966][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2020.11.16-02.14.21:861][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
-[2020.11.16-02.14.22:017][196]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap4E4C589849329FDE3FA140B081A30E55.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.11.16-02.14.23:612][196]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData9EB099C54FADF864BE8B5687BB2E74FB.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.11.16-02.14.23:670][196]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.16-02.14.23:670][196]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.11.16-02.14.23:670][196]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.11.16-02.22.27:365][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-02.22.27:866][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-02.22.28:503][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.11.16-02.22.28:787][877]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.11.17-00.19.08:788][  0]LogD3D11RHI:    1. Unknown, failed to create test device.
+[2020.11.17-00.19.08:792][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.17-00.19.08:792][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.17-00.19.08:792][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.17-00.19.08:804][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.17-00.19.08:805][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.17-00.19.08:805][  0]LogWindows: EnumDisplayDevices:
+[2020.11.17-00.19.08:805][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.11.17-00.19.08:806][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.17-00.19.08:806][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.17-00.19.08:807][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.17-00.19.08:807][  0]LogWindows:    4. 'Intel(R) HD Graphics 3000' (P:0 D:1)
+[2020.11.17-00.19.08:808][  0]LogWindows:    5. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2020.11.17-00.19.08:809][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.11.17-00.19.08:809][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.11.17-00.19.08:809][  0]LogD3D11RHI:   Driver Version: 456.55 (internal:27.21.14.5655, unified:456.55)
+[2020.11.17-00.19.08:809][  0]LogD3D11RHI:      Driver Date: 9-24-2020
+[2020.11.17-00.19.08:809][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.11.17-00.19.08:915][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.17-00.19.08:915][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.17-00.19.08:915][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.17-00.19.08:949][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.17-00.19.09:382][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.17-00.19.09:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.17-00.19.09:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.17-00.19.09:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.17-00.19.09:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.17-00.19.09:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.17-00.19.09:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.17-00.19.09:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.17-00.19.09:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.17-00.19.09:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.17-00.19.09:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.17-00.19.09:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.17-00.19.09:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.17-00.19.09:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.17-00.19.09:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.17-00.19.09:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.17-00.19.09:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.17-00.19.09:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.17-00.19.09:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.17-00.19.09:661][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.17-00.19.09:670][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.17-00.19.09:740][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Intermediate/Shaders/WorkingDirectory/7888/).
+[2020.11.17-00.19.09:740][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gavin/AppData/Local/Temp/UnrealShaderWorkingDir/34BF26F24F9CD1B3B7A350874374C14B/'.
+[2020.11.17-00.19.09:741][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.17-00.19.09:741][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.17-00.19.09:741][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.17-00.19.10:784][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.17-00.19.10:887][  0]LogDerivedDataCache: Loaded boot cache 0.10s 75MB C:/Users/Gavin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.17-00.19.10:887][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gavin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.17-00.19.10:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.17-00.19.10:887][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.17-00.19.10:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.17-00.19.10:888][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.17-00.19.10:902][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.17-00.19.10:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.17-00.19.10:902][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.17-00.19.10:903][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.17-00.19.10:903][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.17-00.19.10:903][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.17-00.19.11:006][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.17-00.19.11:007][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.17-00.19.11:049][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2020.11.17-00.19.11:565][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.17-00.19.11:740][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.17-00.19.11:740][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.17-00.19.11:740][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.17-00.19.11:740][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.17-00.19.11:740][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.17-00.19.11:767][  0]LogNetVersion: Project1 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3211556625)
+[2020.11.17-00.19.12:508][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D3FC0C1BC0), frame # 0
+[2020.11.17-00.19.12:508][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D3FC020F40), frame # 0
+[2020.11.17-00.19.12:510][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3FC071E00), frame # 0
+[2020.11.17-00.19.12:589][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.070361 seconds
+[2020.11.17-00.19.12:594][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.17-00.19.12:594][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.17-00.19.12:594][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.17-00.19.13:192][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.17-00.19.13:199][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.17-00.19.13:333][  0]SourceControl: Source control is disabled
+[2020.11.17-00.19.13:333][  0]SourceControl: Source control is disabled
+[2020.11.17-00.19.13:341][  0]SourceControl: Source control is disabled
+[2020.11.17-00.19.13:346][  0]SourceControl: Source control is disabled
+[2020.11.17-00.19.13:358][  0]SourceControl: Source control is disabled
+[2020.11.17-00.19.13:380][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.17-00.19.13:381][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.17-00.19.13:766][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.17-00.19.13:812][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.17-00.19.13:812][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.17-00.19.13:917][  0]LogOcInput: OculusInput pre-init called
+[2020.11.17-00.19.13:937][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.17-00.19.13:937][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.17-00.19.14:049][  0]LogEngine: Initializing Engine...
+[2020.11.17-00.19.14:051][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.17-00.19.14:051][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.17-00.19.14:053][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.11.17-00.19.14:263][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.17-00.19.14:274][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.17-00.19.14:275][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3FDDA4600), frame # 0
+[2020.11.17-00.19.14:275][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D3FDDD56C0), frame # 0
+[2020.11.17-00.19.14:294][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.17-00.19.14:294][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.17-00.19.14:294][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.17-00.19.14:294][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.17-00.19.14:294][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.17-00.19.14:294][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.17-00.19.14:294][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.17-00.19.14:294][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.17-00.19.14:295][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.17-00.19.14:295][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.17-00.19.14:476][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.17-00.19.14:476][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.17-00.19.14:632][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.11.17-00.19.14:637][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.17-00.19.14:643][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.17-00.19.14:643][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.17-00.19.14:644][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.17-00.19.14:645][  0]LogInit: FAudioDevice initialized.
+[2020.11.17-00.19.14:646][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.17-00.19.14:807][  0]LogDerivedDataCache: Saved boot cache 0.16s 75MB C:/Users/Gavin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.17-00.19.14:807][  0]LogInit: Texture streaming: Enabled
+[2020.11.17-00.19.14:836][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.17-00.19.14:836][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.17-00.19.14:858][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.17-00.19.14:913][  0]LogInit: Transaction tracking system initialized
+[2020.11.17-00.19.14:944][  0]BlueprintLog: New page: Editor Load
+[2020.11.17-00.19.15:075][  0]LocalizationService: Localization service is disabled
+[2020.11.17-00.19.15:209][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.17-00.19.15:210][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.17-00.19.15:990][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.17-00.19.15:990][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.17-00.19.16:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/' took 0.02s
+[2020.11.17-00.19.16:693][  0]SourceControl: Source control is disabled
+[2020.11.17-00.19.16:693][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.252
+[2020.11.17-00.19.16:693][  0]Cmd: MAP LOAD FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.17-00.19.16:694][  0]LightingResults: New page: Lighting Build
+[2020.11.17-00.19.16:696][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-00.19.16:696][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-00.19.16:696][  0]MapCheck: New page: Map Check
+[2020.11.17-00.19.16:696][  0]LightingResults: New page: Lighting Build
+[2020.11.17-00.19.16:717][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D3FDDA4600), frame # 0
+[2020.11.17-00.19.16:718][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D3FDDD56C0), frame # 0
+[2020.11.17-00.19.16:719][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.11.17-00.19.17:750][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.17-00.19.17:750][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D391D96000), frame # 0
+[2020.11.17-00.19.17:750][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D391E30E00), frame # 0
+[2020.11.17-00.19.17:866][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.Floor' which is static to it. Aborting.
+[2020.11.17-00.19.17:866][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.pCube1' which is static to it. Aborting.
+[2020.11.17-00.19.17:866][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group8' which is static to it. Aborting.
+[2020.11.17-00.19.17:867][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group9' which is static to it. Aborting.
+[2020.11.17-00.19.17:867][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group' which is static to it. Aborting.
+[2020.11.17-00.19.17:867][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group10' which is static to it. Aborting.
+[2020.11.17-00.19.17:868][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group11' which is static to it. Aborting.
+[2020.11.17-00.19.17:868][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group12' which is static to it. Aborting.
+[2020.11.17-00.19.17:869][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group13' which is static to it. Aborting.
+[2020.11.17-00.19.17:870][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group14' which is static to it. Aborting.
+[2020.11.17-00.19.17:871][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group15' which is static to it. Aborting.
+[2020.11.17-00.19.17:872][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group16' which is static to it. Aborting.
+[2020.11.17-00.19.17:873][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group17' which is static to it. Aborting.
+[2020.11.17-00.19.17:874][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group18' which is static to it. Aborting.
+[2020.11.17-00.19.17:875][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group19' which is static to it. Aborting.
+[2020.11.17-00.19.17:876][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group20' which is static to it. Aborting.
+[2020.11.17-00.19.17:876][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group21' which is static to it. Aborting.
+[2020.11.17-00.19.17:877][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group22' which is static to it. Aborting.
+[2020.11.17-00.19.17:877][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group23' which is static to it. Aborting.
+[2020.11.17-00.19.17:878][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group24' which is static to it. Aborting.
+[2020.11.17-00.19.17:878][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group25' which is static to it. Aborting.
+[2020.11.17-00.19.17:879][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group26' which is static to it. Aborting.
+[2020.11.17-00.19.17:880][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.group27' which is static to it. Aborting.
+[2020.11.17-00.19.17:880][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FbxScene_house.pCube2' which is static to it. Aborting.
+[2020.11.17-00.19.17:888][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.17-00.19.17:908][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.11.17-00.19.17:908][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.17-00.19.17:909][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.32ms to complete.
+[2020.11.17-00.19.17:909][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.216
+[2020.11.17-00.19.17:925][  0]LogUnrealEdMisc: Total Editor Startup Time, took 12.485
+[2020.11.17-00.19.18:250][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-00.19.18:263][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-00.19.18:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-00.19.18:284][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-00.19.18:329][  0]LogCollectionManager: Loaded 0 collections in 0.001509 seconds
+[2020.11.17-00.19.18:406][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Collections/' took 0.00s
+[2020.11.17-00.19.18:406][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Developers/Gavin/Collections/' took 0.00s
+[2020.11.17-00.19.18:406][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Collections/' took 0.00s
+[2020.11.17-00.19.18:406][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 3427 classes and 821 folders.
+[2020.11.17-00.19.18:466][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.17-00.19.19:973][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.11.17-00.19.20:009][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 0 folders.
+[2020.11.17-00.19.20:321][  0]LogSlate: Took 0.000748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.17-00.19.20:331][  0]LogSlate: Took 0.000672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.17-00.19.20:363][  0]LogSlate: Took 0.012352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.17-00.19.20:582][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.11.17-00.19.20:824][  0]LogSlate: Took 0.014758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.17-00.19.20:912][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.17-00.19.20:912][  0]LogLoad: (Engine Initialization) Total time: 15.47 seconds
+[2020.11.17-00.19.20:912][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.17-00.19.21:031][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.17-00.19.21:077][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.Floor' which is static to it. Aborting.
+[2020.11.17-00.19.21:077][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.pCube1' which is static to it. Aborting.
+[2020.11.17-00.19.21:078][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group8' which is static to it. Aborting.
+[2020.11.17-00.19.21:078][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group9' which is static to it. Aborting.
+[2020.11.17-00.19.21:078][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group' which is static to it. Aborting.
+[2020.11.17-00.19.21:078][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group10' which is static to it. Aborting.
+[2020.11.17-00.19.21:078][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group11' which is static to it. Aborting.
+[2020.11.17-00.19.21:079][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group12' which is static to it. Aborting.
+[2020.11.17-00.19.21:079][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group13' which is static to it. Aborting.
+[2020.11.17-00.19.21:079][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group14' which is static to it. Aborting.
+[2020.11.17-00.19.21:079][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group15' which is static to it. Aborting.
+[2020.11.17-00.19.21:080][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group16' which is static to it. Aborting.
+[2020.11.17-00.19.21:080][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group17' which is static to it. Aborting.
+[2020.11.17-00.19.21:080][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group18' which is static to it. Aborting.
+[2020.11.17-00.19.21:081][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group19' which is static to it. Aborting.
+[2020.11.17-00.19.21:081][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group20' which is static to it. Aborting.
+[2020.11.17-00.19.21:081][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group21' which is static to it. Aborting.
+[2020.11.17-00.19.21:082][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group22' which is static to it. Aborting.
+[2020.11.17-00.19.21:082][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group23' which is static to it. Aborting.
+[2020.11.17-00.19.21:083][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group24' which is static to it. Aborting.
+[2020.11.17-00.19.21:083][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group25' which is static to it. Aborting.
+[2020.11.17-00.19.21:083][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group26' which is static to it. Aborting.
+[2020.11.17-00.19.21:084][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.group27' which is static to it. Aborting.
+[2020.11.17-00.19.21:084][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_house"), cannot attach '/Engine/Transient.World_1:PersistentLevel.FbxScene_house_C_0.pCube2' which is static to it. Aborting.
+[2020.11.17-00.19.21:093][  1]LogAssetRegistry: Asset discovery search completed in 10.0445 seconds
+[2020.11.17-00.19.21:099][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.11.17-00.53.31:118][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.11.17-00.53.33:196][890]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.17-00.53.34:472][890]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Fear_bar_hud.Fear_bar_hud
+[2020.11.17-00.53.34:477][890]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.17-00.53.35:907][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.11.17-00.53.35:920][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.11.17-00.53.35:930][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2020.11.17-00.54.08:283][993]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Fear.Fear
+[2020.11.17-00.54.08:879][993]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.11.17-00.54.11:454][993]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.17-00.54.44:333][ 45]LogEditorTransaction: Undo Edit Right
+[2020.11.17-00.54.44:823][ 53]Cmd: TRANSACTION UNDO
+[2020.11.17-00.54.44:823][ 53]LogEditorTransaction: Undo Edit Bottom
+[2020.11.17-00.55.16:462][892]BlueprintLog: New page: Compile Fear
+[2020.11.17-00.55.16:578][892]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2020.11.17-00.55.17:163][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fear" FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Fear.uasset" SILENT=true
+[2020.11.17-00.55.17:186][916]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Fear05E9F3DB4C1E50918B598FAF06E86B42.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Fear.uasset'
+[2020.11.17-00.55.17:215][916]AssetCheck: New page: Asset Save: Fear
+[2020.11.17-00.55.17:216][916]LogContentValidation: Display: Validating WidgetBlueprint /Game/Fear.Fear
+[2020.11.17-00.55.29:197][561]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.17-00.55.54:201][919]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.17-00.56.26:933][665]LogUObjectHash: Compacting FUObjectHashTables data took  10.43ms
+[2020.11.17-00.56.26:937][665]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.050
+[2020.11.17-00.56.26:937][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2020.11.17-00.56.26:976][665]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2020.11.17-00.56.26:977][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2020.11.17-00.56.27:077][665]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonCharacter_Auto150183E4747429DCE36ED40952C358D19.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2020.11.17-00.56.27:080][665]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fear] ([1] browsable assets)...
+[2020.11.17-00.56.27:080][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fear]
+[2020.11.17-00.56.27:080][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fear" FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.11.17-00.56.27:101][665]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Fear_Auto193A4FDBB40135D89FE0BDDAFB2CE483C.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto1.uasset'
+[2020.11.17-00.56.27:103][665]LogFileHelpers: Auto-saving content packages took 0.166
+[2020.11.17-01.02.47:398][178]LogEditorTransaction: Undo Remove Event Dispatcher
+[2020.11.17-01.02.48:303][232]LogEditorTransaction: Undo Rename Event Dispatcher
+[2020.11.17-01.02.48:742][272]LogEditorTransaction: Undo Add New Event Dispatcher
+[2020.11.17-01.03.06:269][ 92]LogSlate: Took 0.024964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.17-01.04.21:278][262]LogSlate: Window 'Tutorials' being destroyed
+[2020.11.17-01.06.37:623][337]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2020.11.17-01.06.37:627][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.040
+[2020.11.17-01.06.37:627][337]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fear] ([1] browsable assets)...
+[2020.11.17-01.06.37:627][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fear]
+[2020.11.17-01.06.37:627][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fear" FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.11.17-01.06.37:646][337]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Fear_Auto2993131FC4A3DAFC2332A57BDF2442C31.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto2.uasset'
+[2020.11.17-01.06.37:647][337]LogFileHelpers: Auto-saving content packages took 0.020
+[2020.11.17-01.13.52:506][438]LogEditorTransaction: Undo Rename Node
+[2020.11.17-01.13.53:002][447]LogEditorTransaction: Undo Add Node
+[2020.11.17-01.13.54:897][581]BlueprintLog: New page: Compile Fear
+[2020.11.17-01.13.54:902][581]LogBlueprint: Error: [Compiler Fear] The current value of the ' Handle ' pin is invalid: 'Handle' in action 'Clear and Invalidate Timer by Handle' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.11.17-01.13.54:939][581]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2020.11.17-01.13.55:011][581]LogSlate: Took 0.008071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.17-01.13.55:867][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fear" FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Fear.uasset" SILENT=true
+[2020.11.17-01.13.55:908][624]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Fear789D67F44AB1F195D0BEDA99955E2C15.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Fear.uasset'
+[2020.11.17-01.13.55:959][624]AssetCheck: New page: Asset Save: Fear
+[2020.11.17-01.13.55:959][624]LogContentValidation: Display: Validating WidgetBlueprint /Game/Fear.Fear
+[2020.11.17-01.14.03:080][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fear" FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Fear.uasset" SILENT=true
+[2020.11.17-01.14.03:110][ 92]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Fear0EFC829C4203962D63B5469EA15F7D81.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/Fear.uasset'
+[2020.11.17-01.14.03:140][ 92]AssetCheck: New page: Asset Save: Fear
+[2020.11.17-01.14.03:140][ 92]LogContentValidation: Display: Validating WidgetBlueprint /Game/Fear.Fear
+[2020.11.17-01.16.47:399][384]LogUObjectHash: Compacting FUObjectHashTables data took   7.54ms
+[2020.11.17-01.16.47:402][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.044
+[2020.11.17-01.16.47:403][384]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fear] ([1] browsable assets)...
+[2020.11.17-01.16.47:403][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fear]
+[2020.11.17-01.16.47:403][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fear" FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.11.17-01.16.47:428][384]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Fear_Auto38FB0C01C4AB9C04A20BC42B6502B86B0.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto3.uasset'
+[2020.11.17-01.16.47:430][384]LogFileHelpers: Auto-saving content packages took 0.028
+[2020.11.17-01.22.14:553][523]LogSlate: Window 'Fear' being destroyed
+[2020.11.17-01.25.29:164][621]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.11.17-01.25.30:281][622]LogPropertyNode: Warning: Object Property (ObjectProperty /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:Fear Bar Reference) has a null class, falling back to UObject
+[2020.11.17-01.26.40:842][388]LogPropertyNode: Warning: Object Property (ObjectProperty /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:Fear Bar Reference) has a null class, falling back to UObject
+[2020.11.17-01.26.53:668][535]LogSlate: Took 0.017992 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.11.17-01.26.57:461][794]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.11.17-01.26.57:685][794]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2020.11.17-01.27.57:052][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2020.11.17-01.27.57:160][ 43]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_Auto4271AEDD94FE4DB4CE1A38FAD852563E3.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2020.11.17-01.27.57:162][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.150
+[2020.11.17-01.27.57:162][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2020.11.17-01.27.57:163][ 43]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2020.11.17-01.27.57:190][ 43]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2020.11.17-01.27.57:190][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2020.11.17-01.27.57:263][ 43]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonCharacter_Auto47951462A43F1976063B18AA00E7116FC.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2020.11.17-01.27.57:264][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fear] ([1] browsable assets)...
+[2020.11.17-01.27.57:265][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fear]
+[2020.11.17-01.27.57:265][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fear" FILE="C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.11.17-01.27.57:287][ 43]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Fear_Auto499FE54E44D9CB77F0C0B1F8523FDA94F.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/Autosaves/Game/Fear_Auto4.uasset'
+[2020.11.17-01.27.57:289][ 43]LogFileHelpers: Auto-saving content packages took 0.127
+[2020.11.17-01.30.36:210][786]LogEditorTransaction: Undo Add Node
+[2020.11.17-01.32.14:953][989]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.11.17-01.32.15:161][989]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2020.11.17-01.32.17:149][ 44]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonCharacter8CFF8BBA4750A293BB1DF8BAA343B61E.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.11.17-01.32.17:184][ 44]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.11.17-01.32.17:184][ 44]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.11.17-01.32.23:691][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.11.17-01.32.27:187][661]LogTemp: Repeating last play command: Simulate
+[2020.11.17-01.32.27:209][661]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.11.17-01.32.27:210][661]LogPlayLevel: [PlayLevel] Compiling Fear before play...
+[2020.11.17-01.32.27:211][661]LogBlueprint: Error: [Compiler Fear] The type of  Object  is undetermined.  Connect something to  Cast To FirstPersonCharacter  to imply a specific type.
+[2020.11.17-01.32.27:211][661]LogBlueprint: Error: [Compiler Fear] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.11.17-01.32.27:280][661]LogUObjectHash: Compacting FUObjectHashTables data took   8.10ms
+[2020.11.17-01.32.27:284][661]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2020.11.17-01.32.27:285][661]BlueprintLog: Warning: Blueprint failed to compile:  Fear
+[2020.11.17-01.32.27:313][661]LogCustomDialog: Dialog displayed:
+[2020.11.17-01.32.32:161][661]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.11.17-01.32.32:198][661]PIE: New page: SIE session: FirstPersonExampleMap (17 Nov 2020, 11:32:32 pm)
+[2020.11.17-01.32.32:205][661]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.17-01.32.32:214][661]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.17-01.32.32:214][661]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.17-01.32.32:243][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028450s)
+[2020.11.17-01.32.32:244][661]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.17-01.32.32:244][661]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D44B661800), frame # 149661
+[2020.11.17-01.32.32:244][661]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D47946C7C0), frame # 149661
+[2020.11.17-01.32.32:245][661]LogPlayLevel: PIE: World Init took: (0.001479s)
+[2020.11.17-01.32.32:245][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030213s)
+[2020.11.17-01.32.32:278][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.11.17-01.32.32:280][661]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.17-01.32.32:280][661]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.17-01.32.32:280][661]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.17-01.32.32:280][661]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.17-01.32.32:280][661]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.17-01.32.32:280][661]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.17-01.32.32:280][661]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.17-01.32.32:280][661]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.17-01.32.32:280][661]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.17-01.32.32:281][661]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.17-01.32.32:292][661]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.17-01.32.32:292][661]LogAudioMixer: Display: 1: FrontRight
+[2020.11.17-01.32.32:341][661]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.11.17-01.32.32:341][661]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.17-01.32.32:341][661]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.17-01.32.32:341][661]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.17-01.32.32:342][661]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.17-01.32.32:355][661]LogInit: FAudioDevice initialized.
+[2020.11.17-01.32.32:363][661]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.17-01.32.32:367][661]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.17-12.32.32
+[2020.11.17-01.32.32:367][661]LogWorld: Bringing up level for play took: 0.003109
+[2020.11.17-01.32.32:368][661]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.11.17-01.32.32:404][661]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.11.17-01.32.32:429][661]PIE: Server logged in
+[2020.11.17-01.32.32:430][661]PIE: Play in editor total start time 5.231 seconds.
+[2020.11.17-01.32.37:218][943]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 99
+[2020.11.17-01.32.42:220][440]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 98
+[2020.11.17-01.32.47:220][908]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 97
+[2020.11.17-01.32.52:227][440]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 96
+[2020.11.17-01.32.57:231][964]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 95
+[2020.11.17-01.33.02:236][499]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 94
+[2020.11.17-01.33.02:337][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-01.33.02:337][504]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.17-01.33.02:337][504]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-01.33.02:338][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-01.33.02:380][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.17-01.33.02:387][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-01.33.02:420][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-01.33.02:456][504]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D47946C7C0), frame # 152504
+[2020.11.17-01.33.02:456][504]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D44B661800), frame # 152504
+[2020.11.17-01.33.02:492][504]LogUObjectHash: Compacting FUObjectHashTables data took   8.69ms
+[2020.11.17-01.33.02:531][505]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.11.17-01.33.15:262][720]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.11.17-01.33.15:412][720]LogUObjectHash: Compacting FUObjectHashTables data took   8.94ms
+[2020.11.17-01.33.16:073][752]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonCharacterA90E3ED144948F1432480CA59A3B421B.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.11.17-01.33.16:108][752]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.11.17-01.33.16:108][752]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.11.17-01.33.17:414][832]LogUObjectHash: Compacting FUObjectHashTables data took  10.54ms
+[2020.11.17-01.33.17:535][832]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMapFD65094E401BB02C806C82A7EF8F4EC6.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.11.17-01.33.18:474][832]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonExampleMap_BuiltData2ADBD5E04AF2FDF5E09F1ABED4F9C955.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.11.17-01.33.18:540][832]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.17-01.33.18:540][832]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.11.17-01.33.18:541][832]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2020.11.17-01.33.19:712][921]LogTemp: Repeating last play command: Simulate
+[2020.11.17-01.33.19:755][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.17-01.33.19:755][921]PIE: New page: SIE session: FirstPersonExampleMap (17 Nov 2020, 11:33:19 pm)
+[2020.11.17-01.33.19:755][921]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.17-01.33.19:793][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037227s)
+[2020.11.17-01.33.19:794][921]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.17-01.33.19:795][921]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D424CDD000), frame # 153921
+[2020.11.17-01.33.19:795][921]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D426B92FC0), frame # 153921
+[2020.11.17-01.33.19:795][921]LogPlayLevel: PIE: World Init took: (0.002305s)
+[2020.11.17-01.33.19:795][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039822s)
+[2020.11.17-01.33.19:855][921]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2020.11.17-01.33.19:857][921]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.17-01.33.19:857][921]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.17-01.33.19:857][921]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.17-01.33.19:857][921]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.17-01.33.19:857][921]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.17-01.33.19:857][921]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.17-01.33.19:857][921]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.17-01.33.19:857][921]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.17-01.33.19:858][921]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.17-01.33.19:858][921]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.17-01.33.19:875][921]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.17-01.33.19:875][921]LogAudioMixer: Display: 1: FrontRight
+[2020.11.17-01.33.19:950][921]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.11.17-01.33.19:950][921]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.17-01.33.19:950][921]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.17-01.33.19:951][921]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.17-01.33.19:951][921]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.17-01.33.19:971][921]LogInit: FAudioDevice initialized.
+[2020.11.17-01.33.19:982][921]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.17-01.33.19:987][921]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.17-12.33.19
+[2020.11.17-01.33.19:988][921]LogWorld: Bringing up level for play took: 0.004680
+[2020.11.17-01.33.19:988][921]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.11.17-01.33.19:991][921]PIE: Server logged in
+[2020.11.17-01.33.19:992][921]PIE: Play in editor total start time 0.252 seconds.
+[2020.11.17-01.33.24:758][324]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 95
+[2020.11.17-01.33.29:765][838]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 90
+[2020.11.17-01.33.34:771][367]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 85
+[2020.11.17-01.33.39:779][669]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 80
+[2020.11.17-01.33.44:785][222]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 75
+[2020.11.17-01.33.49:791][802]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 70
+[2020.11.17-01.33.53:836][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-01.33.53:837][256]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.17-01.33.53:837][256]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.17-01.33.53:837][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-01.33.53:875][256]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.17-01.33.53:881][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.17-01.33.53:934][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.17-01.33.53:937][256]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D426B92FC0), frame # 157256
+[2020.11.17-01.33.53:937][256]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D424CDD000), frame # 157256
+[2020.11.17-01.33.53:944][256]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2020.11.17-01.33.54:000][257]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.11.17-01.34.00:301][893]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.11.17-01.34.00:399][893]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2020.11.17-01.34.01:692][  3]LogSavePackage: Moving 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Saved/FirstPersonCharacter7A18F22D49F7241AB47B44B76BCDCCAD.tmp' to 'C:/Users/Gavin/Desktop/GDP_Horror/GDP102-HorrorGame/Project1/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.11.17-01.34.01:723][  3]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.11.17-01.34.01:724][  3]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
